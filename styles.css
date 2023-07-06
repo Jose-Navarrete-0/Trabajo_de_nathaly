@@ -1,0 +1,152 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    width: 100%;
+    height: 50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8cc4df;
+}
+
+.logo img
+{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.busqueda li{
+    list-style: none;
+}
+
+.busqueda-1 li img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+
+.busqueda input
+{
+    border: none;
+    border-radius: 10px;
+    width: 448px;
+    height: 22px;
+
+}
+
+.perfiles
+{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+
+.perfiles button
+{
+    margin-right: 15px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.trajetas-container
+{
+    width: 100%;
+    height: 650px;
+    background-color: #dfe3ee;
+    padding: 15px;
+    overflow: hidden;
+    align-items: center;
+
+}
+
+.tarjeta-1{
+    padding: 15px;
+    width: calc(50% - 50px);
+    height: auto;
+    background-color: white;
+    float: left;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.tarjeta-1 h1
+{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.tarjeta-2{
+    width: calc(50% - 50px);
+    height: auto;
+    float: right;
+    margin-top: 120px;
+    margin-right: 20px;
+
+}
+
+.tarjeta-2 img
+{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-container
+{
+    width: 100%;
+    height: 75px;
+    background-color: #8cc4df;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container .izquierda,
+.footer-container .derecha
+{
+    width: 50%;
+    align-items: center;
+}
+
+
+.footer-container .izquierda ul
+{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.footer-container .derecha ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.footer-container .derecha a
+{
+    width: 30px;
+    height: 30px;
+}
